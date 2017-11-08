@@ -16,7 +16,7 @@ public class CaptureSnippet : MonoBehaviour
     {
         WWWForm form = new WWWForm();
 
-        WWW request = new WWW("https://gatewaystaging.payscout.com/api/process", System.Text.Encoding.UTF8.GetBytes("client_username={yourUsername}&client_password={yourPassword}&client_token=token&processing_type=CAPTURE¤cy=USD&initial_amount=99.99&original_transaction_id=A000133RY3R&billing_invoice_number=1999"));
+        WWW request = new WWW("https://gatewaystaging.payscout.com/api/process", System.Text.Encoding.UTF8.GetBytes("client_username={yourUsername}&client_password={yourPassword}&client_token=token&processing_type=CAPTURE&currency=USD&initial_amount=99.99&original_transaction_id=A000133RY3R&billing_invoice_number=1999"));
 
 
 
